@@ -1,0 +1,55 @@
+### ORIGINAL IMGAGES #####
+
+
+# Total Images 40 # Matches: 30 # NOT Matches: 10
+
+ ** Statistics from calculates_results_stats() function:
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  80.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  80.0
+
+CNN Model Architecture: ALEXNET
+
+Number of images: 40
+Number of Dog images: 30
+Number of not Dog images: 10
+
+Percentage calcultaions:
+Percentage of correctly Classified Dogs: 100.0%
+Percentage of correctly Classified Dog Breeds: 80.0%
+Percentage of correctly Classified not Dog Images: 100.0%
+Percentage of Matches: 75.0%
+
+INCORRECTLY CLASSIFIED DOG BREEDS:
+Pet Image: Beagle_01141.jpg, Pet Label: beagle, Classifier Label: english foxhound
+Pet Image: Golden_retriever_05257.jpg, Pet Label: golden retriever, Classifier Label: afghan hound, afghan
+Pet Image: Boston_terrier_02285.jpg, Pet Label: boston terrier, Classifier Label: basenji
+Pet Image: Golden_retriever_05182.jpg, Pet Label: golden retriever, Classifier Label: tibetan mastiff
+Pet Image: Beagle_01170.jpg, Pet Label: beagle, Classifier Label: walker hound, walker foxhound
+Pet Image: Great_pyrenees_05367.jpg, Pet Label: great pyrenees, Classifier Label: kuvasz
+
+** Total Elapsed Runtime: 0:0:18
+
+
+### UPLOADED IMGAGES #####
+
+
+NN Model Architecture: ALEXNET
+
+Number of images: 4
+Number of Dog images: 2
+Number of not Dog images: 2
+
+Percentage calcultaions:
+Percentage of correctly Classified Dogs: 100.0%
+Percentage of correctly Classified Dog Breeds: 50.0%
+Percentage of correctly Classified not Dog Images: 100.0%
+Percentage of Matches: 50.0%
+
+INCORRECTLY CLASSIFIED DOG BREEDS:
+Pet Image: golden_retriever_02.jpg, Pet Label: golden retriever, Classifier Label: cocker spaniel, english cocker spaniel, cocker
+
+** Total Elapsed Runtime: 0:0:0

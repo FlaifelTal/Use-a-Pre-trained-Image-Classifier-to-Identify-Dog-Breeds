@@ -1,0 +1,31 @@
+Questions regarding Uploaded Image Classification:
+
+####
+
+### all the answers will be based on teh results i had with with original data 
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: Yes, all three models should correctly classifiey the breed of dog (golden retriever)
+
+After Edit: All 3 classifieres classified the dog breed in Dog_01.jpg correctly -> golden_retriever
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: most likely no not all classified the breed of dog correctly, vgg has the highest chance of correctly classifying it followed by ResNet and lastly AlexNet
+
+After Edit:  both vgg and resnet were able to correctly classify the dog breed in the seconed image golden_retriever_02, the same as the classification in the first image golden_retriever_01, but alexnet was noot able to correctly classify the dog breed in the second image golden_retriever_02 as in the first image golden_retriever_01 whichin the first was
+classified as golden retriever the second as cocker spaniel, english cocker spaniel, cocker.
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: both Vgg and AlexNet shold properly classify it as not a dog, and ResNet has a slightly lower chance of doing it while its still considered high 
+ 
+After Edit: all three models were able to correctly classify the Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs. 
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: the best model architecture is VGG; it has the highest accuracy and performance in classifying the dog, the breed, and labels among all 3 models. 
+
+After Edit: both vgg and resnet did an excellent job in classifying the data, while resnet took less time to classify which puts it as the first option. 
